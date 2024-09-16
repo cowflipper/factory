@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1180px;
+    border: 1px solid rebeccapurple;
+} 
+
+.line{
+    border: 1px solid gray;
+    width: 1180px;
+    height: 0px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.header-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.menu-contacts{
+    display: flex;
+    gap:20px ;
+}
+
+.header-bot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    gap: 44px;
+    list-style: none;
+}
+
+.menu-item{
+    text-decoration: none;
+    font-family: "Source Sans 3";
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+}
+
+.call-me{
+    text-decoration: none;
+    font-family: "Source Sans 3";
+    font-weight: 400;
+    font-size: 16px;
+    color: #607CE6;
+}
+
+.tel::before{
+    content: url(assets/phone\ 1.svg);
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.sp-1{
+    font-family: "Source Sans 3";
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+
+.link-contact-num{
+    text-decoration: none;
+    font-family: "Source Sans 3";
+    font-weight: 600;
+    font-size: 20px;
+    color: #607CE6;
+}
+
+.email{
+    font-family: "Source Sans 3";
+    font-weight: 600;
+    font-size: 20px;
+    color: #607CE6;
+}
+
+/* первая секция */
+
+.section-1{
+    margin-top: 80px;
+}
+
+.name-section-1{
+    font-family: "Source Sans 3";
+    font-weight: 700;
+    font-size: 60px;
+    color: #333;
+    height: 144px;
+    width: 580px;
+    margin-bottom: 32px;
+    line-height: 1.2;
+}
+
+.text-section-1{
+    font-family: "Source Sans 3";
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    margin-top:-70px;
+    line-height: 1.2;
+}
+
+.line-1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+/* вторая секция */
+
+.section-2{
+    margin-top: 80px;
+}
+.column-1{
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+}
+
+.column-2{
+    display: flex;
+    flex-direction: column;
+    gap:123px;
+}
+
+.about-factory{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+h2{
+    font-family: "Source Sans 3";
+    font-weight: 700;
+    font-size: 48px;
+    color: #333;
+    height: 58px;
+    margin-bottom: 32px;
+}
+
+.text-section-2{
+    font-family: "Source Sans 3";
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.4;
+}
+
+.tss-2{
+    display: flex;
+    flex-direction: column;
+    gap:24px ;
+}
+
+/* третья секция */
+
+.section-3{
+    margin-top: 80px;
+}
+
+.card-link{
+    text-decoration: none;
+    font-family: "Source Sans 3";
+    color: #607CE6;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+h3{
+    font-family: "Source Sans 3";
+    font-weight: 600;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 12px;
+    height: 34px;
+}
+
+.card{
+    height: 435px;
+    width: 380px;
+    background-color: #F5F5F5;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+}
+
+.im-1{
+    margin-top: 107px;
+}
+
+.card-2{
+    height: 435px;
+    width: 380px;
+    background-color: #F5F5F5;
+    padding-top: 32px;
+    padding-bottom: 55px;
+    padding-left: 24px;
+}
+
+.im-2{
+    margin-top: 190px;
+}
+
+.im-3{
+    margin-top:143px ;
+}
+
+.line-2-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.im-4{
+    margin-top: 152px;
+}
+
+.im-5{
+    margin-top: 160px;
+}
+
+.im-6{
+    margin-top: 163px;
+}
+
+.line-2-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.catalog{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
